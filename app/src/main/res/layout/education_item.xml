@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/education_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/spacing_medium"
+
+    >
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/education_title"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           tools:text="schooldate"
+           android:textAllCaps="true"
+           android:text="title"/>
+       <ImageButton
+           android:id="@+id/education_edit_btn"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@mipmap/baseline_edit_24"
+           android:background="?attr/selectableItemBackground"
+           android:layout_alignParentRight="true"
+           android:contentDescription="@string/edit_education"/>
+       <TextView
+           android:id="@+id/education_courses"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/education_title"
+           android:layout_alignParentLeft="true"
+           tools:text="-cources"
+           android:text="courses"/>
+   </RelativeLayout>
+
+
+</LinearLayout>

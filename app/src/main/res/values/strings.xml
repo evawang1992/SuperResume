@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SuperResume</string>
+    <string name="name">Eva</string>
+    <string name="email">evawang9682@gmail.com</string>
+    <string name="education">education</string>
+    <string name="experience">experience</string>
+    <string name="projects">projects</string>
+    <string name="add_education">add education</string>
+    <string name="add_experience">add experience</string>
+    <string name="add_projects">add projects</string>
+    <string name="edit_info">edit info</string>
+    <string name="edit_education">edit education</string>
+    <string name="edit_experience">edit experience</string>
+    <string name="edit_projects">edit projects</string>
+    <string name="user_image">user image</string>
+    <string name="action_save">save info</string>
+</resources>
